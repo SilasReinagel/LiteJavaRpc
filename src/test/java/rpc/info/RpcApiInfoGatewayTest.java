@@ -1,7 +1,7 @@
 package rpc.info;
 
 import org.junit.*;
-import rpc._testObjects.MockRpcClient;
+import rpc._testobjects.MockRpcClient;
 import java.util.Collections;
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package rpc;
 
-import rpc._testObjects.MockRpcApi;
-import rpc._testObjects.MockRpcClient;
+import rpc._testobjects.MockRpcApi;
+import rpc._testobjects.MockRpcClient;
 import rpc.gateway.RpcCompositeGateway;
 import org.junit.*;
 import rpc.info.RpcApiHelpResponse;

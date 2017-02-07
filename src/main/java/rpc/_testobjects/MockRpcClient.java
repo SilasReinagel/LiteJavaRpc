@@ -1,4 +1,4 @@
-package rpc._testObjects;
+package rpc._testobjects;
 
 import rpc.IRpcClient;
 import rpc.IRpcUri;
@@ -33,9 +33,8 @@ public final class MockRpcClient implements IRpcClient
         _requestsSent.add(request);
         delayForResponseTimeDuration();
         throwIfRequired(uri);
-        if (_requiresResponseObject)
-            if (!_responses.containsKey(uri))
-                throw new RpcTimeoutException("Request timed out.");
+        if (_requiresResponseObject && !_responses.containsKey(uri))
+            throw new RpcTimeoutException("Request timed out.");
         return (T) _responses.get(uri);
     }
 

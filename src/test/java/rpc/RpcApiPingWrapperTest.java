@@ -1,7 +1,7 @@
 package rpc;
 
 import org.junit.*;
-import rpc._testObjects.MockRpcApi;
+import rpc._testobjects.MockRpcApi;
 import rpc.health.RpcApiPingWrapper;
 
 public class RpcApiPingWrapperTest

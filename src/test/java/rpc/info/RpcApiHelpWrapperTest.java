@@ -4,8 +4,8 @@ import rpc.IRpcApi;
 import rpc.RpcCallHandler;
 import rpc.RpcRequest;
 import rpc.RpcResponse;
-import rpc._testObjects.MockRpcApi;
-import rpc._testObjects.SampleRpcUserRequest;
+import rpc._testobjects.MockRpcApi;
+import rpc._testobjects.SampleRpcUserRequest;
 import org.junit.*;
 
 public class RpcApiHelpWrapperTest

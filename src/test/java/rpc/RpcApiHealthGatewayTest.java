@@ -1,7 +1,7 @@
 package rpc;
 
 import org.junit.*;
-import rpc._testObjects.MockRpcClient;
+import rpc._testobjects.MockRpcClient;
 import rpc.exceptions.RpcException;
 import rpc.health.RpcApiHealthGateway;
 import testing.ExceptionAssert;

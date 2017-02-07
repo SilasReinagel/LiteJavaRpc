@@ -3,7 +3,7 @@ package rpc.info;
 import org.junit.*;
 import rpc.IRpcApi;
 import rpc.RpcRequest;
-import rpc._testObjects.MockRpcApi;
+import rpc._testobjects.MockRpcApi;
 
 public class RpcApiVersionWrapperTest
 {

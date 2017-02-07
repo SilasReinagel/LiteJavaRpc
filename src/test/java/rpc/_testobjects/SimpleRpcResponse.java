@@ -1,4 +1,4 @@
-package rpc._testObjects;
+package rpc._testobjects;
 
 import rpc.RpcResponse;
 
