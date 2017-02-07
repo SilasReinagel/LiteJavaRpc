@@ -3,7 +3,7 @@ package rpc;
 import org.junit.*;
 import rpc._testObjects.MockRpcApi;
 
-public class RpcApiWrapperTests
+public class RpcApiWrapperTest
 {
     private MockRpcApi _apiMock;
     private RpcApiWrapper _wrapper;

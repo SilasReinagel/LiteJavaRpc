@@ -6,7 +6,7 @@ import rpc.exceptions.RpcException;
 import rpc.health.RpcApiHealthGateway;
 import testing.ExceptionAssert;
 
-public class RpcApiHealthGatewayTests
+public class RpcApiHealthGatewayTest
 {
     private MockRpcClient _rpcClientMock;
     private RpcApiHealthGateway _gateway;

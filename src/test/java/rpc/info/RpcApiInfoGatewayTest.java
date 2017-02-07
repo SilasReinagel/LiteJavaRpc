@@ -5,7 +5,7 @@ import rpc._testObjects.MockRpcClient;
 import java.util.Collections;
 import java.util.List;
 
-public class RpcApiInfoGatewayTests
+public class RpcApiInfoGatewayTest
 {
     private MockRpcClient _rpcClientMock;
     private RpcApiInfoGateway _gateway;

@@ -4,7 +4,7 @@ import org.junit.*;
 import rpc._testObjects.MockRpcApi;
 import rpc.health.RpcApiPingWrapper;
 
-public class RpcApiPingWrapperTests
+public class RpcApiPingWrapperTest
 {
     @Test
     public void RpcApiPingWrapper_Wrapper_ContainsPingCall()

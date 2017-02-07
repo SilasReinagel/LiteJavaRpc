@@ -7,7 +7,7 @@ import rpc.RpcResponse;
 import rpc.exceptions.RpcInvalidResponseException;
 import testing.ExceptionAssert;
 
-public class RpcResponseValidatorTests
+public class RpcResponseValidatorTest
 {
     private RpcResponseValidator _validator;
 

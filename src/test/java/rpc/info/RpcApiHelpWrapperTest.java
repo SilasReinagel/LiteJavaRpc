@@ -8,7 +8,7 @@ import rpc._testObjects.MockRpcApi;
 import rpc._testObjects.SampleRpcUserRequest;
 import org.junit.*;
 
-public class RpcApiHelpWrapperTests
+public class RpcApiHelpWrapperTest
 {
     @Test
     public void RpcApiHelpWrapper_WrapApi_ContainsHealthCall()

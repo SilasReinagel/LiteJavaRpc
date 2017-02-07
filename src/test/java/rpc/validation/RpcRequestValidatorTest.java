@@ -6,7 +6,7 @@ import rpc.exceptions.RpcInvalidRequestException;
 import testing.ExceptionAssert;
 
 @SuppressWarnings("ThrowableResultOfMethodCallIgnored")
-public class RpcRequestValidatorTests
+public class RpcRequestValidatorTest
 {
     private RpcRequestValidator _validator;
 

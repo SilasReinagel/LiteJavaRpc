@@ -5,7 +5,7 @@ import rpc.IRpcApi;
 import rpc.RpcRequest;
 import rpc._testObjects.MockRpcApi;
 
-public class RpcApiVersionWrapperTests
+public class RpcApiVersionWrapperTest
 {
     @Test
     public void RpcApiVersionWrapperTests_GetVersion_IsCorrect()

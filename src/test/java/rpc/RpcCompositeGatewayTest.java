@@ -9,7 +9,7 @@ import rpc.info.RpcApiVersionResponse;
 
 import java.util.ArrayList;
 
-public class RpcCompositeGatewayTests
+public class RpcCompositeGatewayTest
 {
     private MockRpcClient _rpcClientMock;
     private RpcCompositeGateway _gateway;
