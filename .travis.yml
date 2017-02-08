@@ -10,5 +10,7 @@ before_install:
   - export CODACY_PROJECT_TOKEN=39c2a1ee9dd849c2aaf45ece205119c0
 
 after_success:
+  - ls -lsa target/site/jacoco
+  - ls -lsa ~/jpm/bin
   - ~/jpm/bin/codacy-coverage-reporter -l Java -r target/site/jacoco/jacoco.xml
   
