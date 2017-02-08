@@ -10,7 +10,6 @@ before_install:
   - curl -sL https://github.com/jpm4j/jpm4j.installers/raw/master/dist/biz.aQute.jpm.run.jar >jpm4j.jar
   - java -jar jpm4j.jar -u init
   - ~/jpm/bin/jpm install com.codacy:codacy-coverage-reporter:assembly
-  - export CODACY_PROJECT_TOKEN=39c2a1ee9dd849c2aaf45ece205119c0
 
 after_success:
   - ls -lsa target/site/jacoco
